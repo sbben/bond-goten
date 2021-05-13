@@ -49,3 +49,10 @@ export const getTreeSelectData = () => {
     method: 'get'
   })
 }
+
+export const getTreeSelectData1 = () => {
+  return axios.request({
+    url: 'get_tree_select_data',
+    method: 'get'
+  })
+}
